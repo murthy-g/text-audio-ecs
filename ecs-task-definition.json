@@ -1,0 +1,18 @@
+{
+    "family": "text-audio-ecs",
+    "containerDefinitions": [
+        {
+            "name": "text-audio-ecs",
+            "image": "897527378750.dkr.ecr.us-east-1.amazonaws.com/text-audio-ecs:latest",
+            "memory": 512,
+            "cpu": 256,
+            "essential": true,
+            "portMappings": [
+                {
+                    "containerPort": 5000,
+                    "hostPort": 5000
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+#generateaudio
+
+# flask
+# boto3
+# gtts
+
+#whisper
+# Flask
+# boto3
+# torch
+# transformers
+# torchaudio
+# librosa
+
+
+#record
+sounddevice
+numpy
+wavio
