@@ -65,7 +65,7 @@ def handler():
                 logging.error(f"Error running model inference: {e}")
                 return jsonify({"error": "Error running model inference"}), 500
 
-        print(logits)
+        # print(logits)
         predicted_ids = argmax(logits, dim=-1)
         print(predicted_ids)
         predicted_text = processor.batch_decode(predicted_ids)
@@ -78,5 +78,7 @@ def handler():
         return jsonify({"error": "Error processing audio"}), 500
 
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+# if __name__ == '__main__':
+#     app.run(host='0.0.0.0', port=5000)
+
+handler()
