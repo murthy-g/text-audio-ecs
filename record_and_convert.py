@@ -40,6 +40,7 @@ def concatenate_wav_files(filenames):
         combined += audio_segment
     return combined
 
+
 def record_and_save_chunk(filename):
     print(f"Recording chunk: {filename}")
     audio_chunk = sd.rec(int(SECONDS_PER_CHUNK * RATE), samplerate=RATE, channels=CHANNELS, dtype=DTYPE)

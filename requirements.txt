@@ -18,3 +18,15 @@ sounddevice
 numpy
 wavio
 pydub
+flask_uploads
+flask
+openai
+openai-whisper
+boto3
+transformers
+torchaudio
+librosa
+soundfile
+pydub
+whisper
+flask-cors
