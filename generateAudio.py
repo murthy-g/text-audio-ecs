@@ -7,8 +7,8 @@ import os
 app = Flask(__name__)
 
 # Initialize the Boto3 S3 client
-s3 = boto3.client('s3', aws_access_key_id='AKIA5B6GM6M7NNHMUQNU',
-                  aws_secret_access_key='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')
+s3 = boto3.client('s3', aws_access_key_id='',
+                  aws_secret_access_key='')
 
 @app.route('/generate-audio', methods=['POST'])
 def generate_audio():
