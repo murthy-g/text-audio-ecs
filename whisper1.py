@@ -21,8 +21,8 @@ model_name = "facebook/wav2vec2-base-960h"
 
 # Initialize AWS S3 client
 s3 = boto3.client('s3', 
-                  aws_access_key_id='AKIA5B6GM6M7NNHMUQNU',
-                  aws_secret_access_key='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')
+                  aws_access_key_id='',
+                  aws_secret_access_key='')
 
 # Initialize pre-trained model and processor
 processor = Wav2Vec2Processor.from_pretrained(model_name)
